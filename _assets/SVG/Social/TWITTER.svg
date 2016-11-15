@@ -1,3 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
-  <image id="TWITTER" width="24" height="24" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAQAAABKfvVzAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfgCAMKExX58HWiAAACm0lEQVQ4y42UTUhUURiGn3PundH5cRx1Rm1iyvzJNEgKobJFFBkUtakoiAgjQlq0lDYFLSIIdxEEtZKiQIigFkUYQRRlRRFm1GRipDZo2vw4V+fO3LktZqZ7oczesznnO+97vo/zveeIg7iI8oIApWTRVsb36xuzrUYYKcfVYecr7x3/ZwWdKO2sQEOlACfZ2snzc12mUowYLUZL+kDyYupG9RnXV1GISgCBysy+kUjyuEW3kDjyJTJ9VCEvkQKJh1T31G2jjEVgOqN9yR4PCgKlHpWPeyZusgRyncpIcGgOsYdE+ZPZfGlLoSNU9V1mGLr0f3QYurYAzbWYxeFMWnPMkk9VBwPbvBdl1P1GLew01VHRY1FC3Wv2FueO8Q3uZVTSSruvbr06kY/6L0h9s5UylQveq99d+hYgeD+shVFIkEnMdxi+PGN+q3BEMk1FgXu0bYuITjG3Q9seftVwR/CBSVQRNwpNQI6rmZCVwfFawydMUxmoGPAhiaNQj14Zty63Qha1AJQ5oh6zAy8/kHiYJY1CerWdI5Xv1iK+a/iK9K+lkxayfEPHhZPYCRs9LkuG7Ted3abHBvhMmCne4aAVIxw7Ziv6m3QM2gWZ5scvBw8sEEdDkmKGkQf2/ZKnsvq65TFHxPPMnaxNL/AF8KPXPn4eb7ULglfpxNdfaFbO9TC0s5EGKqgi0Ow/LRL2zmO6H21H7OVn8OmU7ZBJJSIzIqyv+dNLm1bVjKmCuunY4feWvUNGyPir9ZpPNozNobRRStn7Uc3o/LdT1fObe33kkJAjhbc30CVyi9OrT/nOauQovGmTLMG+xhZP/9/Inrv162ouG+QL/f1r6Lgiyw9p52KH9Q6jLhdAiBllrGTQe6v8nZM0ZsEfvwBSNwFd+w7FvQAAAABJRU5ErkJggg=="/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 145 144" style="enable-background:new 0 0 145 144;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#f7c050;}
+</style>
+<path class="st0" d="M23,100.4c9.7,6.2,21.3,9.9,33.7,9.9c40.8,0,63.9-34.5,62.5-65.4c4.3-3.1,8-7,11-11.4
+	c-3.9,1.7-8.2,2.9-12.6,3.5c4.5-2.7,8-7,9.7-12.2c-4.2,2.5-9,4.4-14,5.3c-4-4.3-9.7-6.9-16-6.9c-14.2,0-24.6,13.2-21.4,27
+	c-18.3-0.9-34.5-9.7-45.3-23c-5.8,9.9-3,22.8,6.8,29.3c-3.6-0.1-7-1.1-10-2.7C27,64,34.3,73.6,44.9,75.7c-3.1,0.8-6.5,1-9.9,0.4
+	c2.8,8.7,10.9,15.1,20.5,15.3C46.3,98.6,34.6,101.8,23,100.4z"/>
 </svg>
