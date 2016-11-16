@@ -1,0 +1,201 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #f7c050;
+  font-family: Raleway, sans-serif;
+  font-size: .7em;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+p {
+  color: #f7c050;
+  font-family: Raleway, sans-serif;
+  font-size: .8em;
+  letter-spacing: 2px;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+body {
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+
+  background: url('../../_assets/Image/BG-Gradient.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.container {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+
+  background: url('../../_assets/Image/HTFLL_Bust.png') no-repeat center center fixed;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+.container-inner {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+
+  width: 100%;
+}
+
+.cover-container {
+  margin: -15px auto auto auto;
+}
+
+
+/*
+ * Header
+ */
+
+.header {
+  position: fixed;
+  top: 0;
+}
+
+.header img {
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+}
+
+.header-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 200px;
+  width: 200px;
+}
+
+.enter {
+  padding: 65px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+}
+
+.cover img {
+  padding: 30px;
+  width: 65%;
+}
+
+.cover a {
+  font-family: Raleway-Light, sans-serif;
+  background: transparent;
+  border: 2px solid #bbb;
+  color: white;
+  display: inline-block;
+  font-size: 80%;
+  letter-spacing: 1px;
+  margin: 10px 10px;
+  text-decoration: none;
+  width: 150px;
+}
+.cover a:hover {
+  background-color: #f7c050;
+  border: 2px solid #f7c050;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.player {
+  bottom: 0;
+  left: 0;
+  padding: 50px 40px;
+  position: fixed;
+}
+
+.player-title {
+  margin-left: -5px;
+  padding: 10px;
+  text-align: left;
+}
+
+.player-icon {
+  height: 23px;
+  padding: 5px;
+  width: 23px;
+}
+
+.player-bar {
+  background-color: #f7c050;
+  display: inline-block;
+  height: 4px;
+  margin: 15px;
+  width: 300px;
+}
+
+.social {
+  bottom: 0;
+  right: 0;
+  padding: 40px 50px;
+  position: fixed;
+
+}
+
+.social-icon {
+  height: 40px;
+  padding: 5px;
+  width: 40px;
+}
+
+/* Handle the widths */
+.header,
+.footer,
+.cover-container {
+  width: 100%; /* Must be percentage or pixels for horizontal alignment */
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}

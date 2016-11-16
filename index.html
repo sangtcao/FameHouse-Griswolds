@@ -12,19 +12,14 @@
     <title>THE GRISWOLDS</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="_src/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="_src/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="_src/css/main.css" rel="stylesheet">
     <link href="_src/css/fonts.css" rel="stylesheet">
-
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -35,67 +30,103 @@
 
   <body>
 
-      <div class="container">
+    <div class="site-wrapper">
 
-        <div class="container-inner">
-          <div class="cover-container">
+      <div class="site-wrapper-inner">
 
-            <div class="header clearfix">
-              <div class="inner">
-                <img src="_assets/Logo/TheGriswolds_SquareLogo.svg" alt="TheGriswolds_SquareLogo">
-                <div class="enter">
-                  <a href="#" class="enter">ENTER SITE</a>
-                </div>
+        <div class="cover-container">
+
+          <div class="header clearfix">
+            <div class="inner">
+              <div class="header-brand">
+                <img class="" src="_assets/Logo/TheGriswolds_SquareLogo.svg" alt="TheGriswolds_SquareLogo">
               </div>
+              <nav>
+                <ul class="nav header-nav">
+                  <li>
+                    <a href="#" class="enter">ENTER SITE</a>
+                  </li>
+                </ul>
+              </nav>
             </div>
+          </div>
 
-            <div class="inner cover">
-              <img src="_assets/Logo/HighTimesForLowLives_TextLogo.svg" alt="HighTimesForLowLives_TextLogo">
-              <div class="">
-                <a href="http://smarturl.it/TheGriswoldsHTFLLdl?IQid=presplash.button" class="btn btn-lg btn-default">DIGITAL PRE-ORDER</a>
-                <a href="#" class="btn btn-lg btn-default">MERCH + ALBUM</a>
+          <div class="inner cover">
+            <img class="cover-logo" src="_assets/Logo/HighTimesForLowLives_TextLogo.svg" alt="HighTimesForLowLives_TextLogo">
+          </div>
+          <div class="inner cover container">
+            <div class="row top-buffer">
+              <div class="col-md-offset-3 col-xs-12 col-md-2">
+                <a style="padding: 10px 10px;" href="http://smarturl.it/TheGriswoldsHTFLLdl?IQid=presplash.button" class="btn btn-lg btn-default">DIGITAL PRE-ORDER</a>
+              </div>
+              <div class="col-xs-12 col-md-2">
+                <a href="http://smarturl.it/TheGriswoldsHTFLLswg?IQid=presplash.button" class="btn btn-lg btn-default">MERCH + ALBUM</a>
+              </div>
+              <div class="col-xs-12 col-md-2">
                 <a href="#" class="btn btn-lg btn-default">TICKETS + ALBUM</a>
               </div>
-              <div class="">
-                <a href="#" class="btn btn-lg btn-default">VINYL PRE-ORDER</a>
-                <a href="#" class="btn btn-lg btn-default">STREAM</a>
+            </div>
+            <div class="row top-buffer">
+              <div class="col-md-offset-4 col-xs-12 col-md-2">
+                <a href="http://smarturl.it/TheGriswoldsHTFLLlp?IQid=presplash.button" class="btn btn-lg btn-default">VINYL PRE-ORDER</a>
               </div>
-              <div class="col-md-3">
-
+              <div class="col-xs-12 col-md-2">
+                <a href="http://smarturl.it/TheGriswoldsHTFLLst?IQid=presplash.button" class="btn btn-lg btn-default">STREAM</a>
               </div>
             </div>
+          </div>
 
-            <div class="footer">
-              <div class="inner">
-                <div class="player">
-                  <div class="player-title">
-                    <p><strong>HIGH TIMES FOR LOW LIVES</strong> &nbsp;&nbsp; The Griswolds</p>
-                  </div>
-                  <img class="player-icon" src="_assets/SVG/Player/Play.svg" alt="Player-Play">
-                  <div class="player-bar"></div>
-                  <img class="player-icon" src="_assets/SVG/Player/Skip.svg" alt="Player-Skip">
-                  <img class="player-icon" src="_assets/SVG/Player/Back.svg" alt="Player-Back">
+          <div class="footer">
+            <div class="inner">
+              <div class="player">
+                <div class="player-title">
+                  <p><strong>HIGH TIMES FOR LOW LIVES</strong> &nbsp;&nbsp; The Griswolds</p>
                 </div>
-
-                <div class="social">
-                  <a href="https://soundcloud.com/thegriswolds">
-                  <img class="social-icon" src="_assets/SVG/Social/SOUNDCLOUD.svg" alt="Social-Soundcloud">
-                  </a>
-                  <a href="https://www.instagram.com/thegriswolds/">
-                    <img class="social-icon" src="_assets/SVG/Social/INSTAGRAM.svg" alt="Social-Instagram">
-                  </a>
-                  <a href="https://twitter.com/wethegriswolds">
-                    <img class="social-icon" src="_assets/SVG/Social/TWITTER.svg" alt="Social-Twitter">
-                  </a>
-                  <a href="https://www.facebook.com/thegriswolds">
-                    <img class="social-icon" src="_assets/SVG/Social/FACEBOOK.svg" alt="Social-Facebook">
-                  </a>
-                  <a href="https://plus.google.com/+wearethegriswolds">
-                    <img class="social-icon" src="_assets/SVG/Social/GOOGLEPLUS.svg" alt="Social-GooglePlus">
-                  </a>
-
-                </div>
+                <ul class="nav footer-nav player-controls">
+                  <li>
+                    <img class="player-icon" src="_assets/SVG/Player/Play.svg" alt="Player-Play">
+                  </li>
+                  <li>
+                    <div class="player-bar"></div>
+                  </li>
+                  <li>
+                    <img class="player-icon" src="_assets/SVG/Player/Skip.svg" alt="Player-Skip">
+                  </li>
+                  <li>
+                    <img class="player-icon" src="_assets/SVG/Player/Back.svg" alt="Player-Back">
+                  </li>
+                </ul>
               </div>
+
+              <nav>
+                <ul class="nav footer-nav">
+                  <li>
+                    <a href="https://soundcloud.com/thegriswolds">
+                      <img class="social-icon" src="_assets/SVG/Social/SOUNDCLOUD.svg" alt="Social-Soundcloud">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/thegriswolds/">
+                      <img class="social-icon" src="_assets/SVG/Social/INSTAGRAM.svg" alt="Social-Instagram">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/wethegriswolds">
+                      <img class="social-icon" src="_assets/SVG/Social/TWITTER.svg" alt="Social-Twitter">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.facebook.com/thegriswolds">
+                      <img class="social-icon" src="_assets/SVG/Social/FACEBOOK.svg" alt="Social-Facebook">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://plus.google.com/+wearethegriswolds">
+                      <img class="social-icon" src="_assets/SVG/Social/GOOGLEPLUS.svg" alt="Social-GooglePlus">
+                    </a>
+                  </li>
+                </ul>
+              </nav>
             </div>
           </div>
 
@@ -103,13 +134,15 @@
 
       </div>
 
+    </div>
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script>window.jQuery || document.write('<script src="_src/js/jquery.min.js"><\/script>')</script>
+    <script src="_src/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="_src/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>

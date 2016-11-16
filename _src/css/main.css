@@ -8,12 +8,13 @@ a:focus,
 a:hover {
   color: #f7c050;
   font-family: Raleway, sans-serif;
-  font-size: .7em;
+  font-size: .8em;
   font-weight: 600;
   letter-spacing: 2px;
   text-decoration: none;
 }
 
+/* Text */
 p {
   color: #f7c050;
   font-family: Raleway, sans-serif;
@@ -29,6 +30,7 @@ p {
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #fff;
   border: 1px solid #fff;
+  border-radius: 0;
 }
 
 
@@ -43,7 +45,6 @@ body {
 }
 body {
   color: #fff;
-  margin: 0;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 
@@ -55,7 +56,7 @@ body {
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
-.container {
+.site-wrapper {
   display: table;
   width: 100%;
   height: 100%; /* For at least Firefox */
@@ -67,124 +68,55 @@ body {
   -o-background-size: contain;
   background-size: contain;
 }
-.container-inner {
+.site-wrapper-inner {
   display: table-cell;
-  height: 100%;
-  vertical-align: middle;
-
-  width: 100%;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.cover-container {
-  margin: -15px auto auto auto;
+/* Padding for spacing */
+.inner {
+  padding: 50px;
 }
 
 
 /*
  * Header
  */
-
-.header {
-  position: fixed;
-  top: 0;
+.header-brand {
+  display: inline-block;
+  height: 200px;
+  margin: -50px; /* One-time fix */
+  width: 200px;
 }
 
-.header img {
-  height: 200px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 200px;
+.header-nav > li {
+  display: inline-block;
+}
+.header-nav > li + li {
+  margin-left: 20px;
+}
+.header-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  border-bottom: 2px solid transparent;
+}
+.header-nav > li > a:hover,
+.header-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+
+.header-nav {
+    float: right;
 }
 
 .header-brand {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  height: 200px;
-  width: 200px;
-}
-
-.enter {
-  padding: 65px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100px;
-}
-
-.cover img {
-  padding: 30px;
-  width: 65%;
-}
-
-.cover a {
-  font-family: Raleway-Light, sans-serif;
-  background: transparent;
-  border: 2px solid #bbb;
-  color: white;
-  display: inline-block;
-  font-size: 80%;
-  letter-spacing: 1px;
-  margin: 10px 10px;
-  text-decoration: none;
-  width: 150px;
-}
-.cover a:hover {
-  background-color: #f7c050;
-  border: 2px solid #f7c050;
-}
-
-.footer {
-  position: fixed;
-  bottom: 0;
-}
-
-.player {
-  bottom: 0;
-  left: 0;
-  padding: 50px 40px;
-  position: fixed;
-}
-
-.player-title {
-  margin-left: -5px;
-  padding: 10px;
-  text-align: left;
-}
-
-.player-icon {
-  height: 23px;
-  padding: 5px;
-  width: 23px;
-}
-
-.player-bar {
-  background-color: #f7c050;
-  display: inline-block;
-  height: 4px;
-  margin: 15px;
-  width: 300px;
-}
-
-.social {
-  bottom: 0;
-  right: 0;
-  padding: 40px 50px;
-  position: fixed;
-
-}
-
-.social-icon {
-  height: 40px;
-  padding: 5px;
-  width: 40px;
-}
-
-/* Handle the widths */
-.header,
-.footer,
-.cover-container {
-  width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  float: left;
 }
 
 
@@ -198,4 +130,165 @@ body {
 .cover .btn-lg {
   padding: 10px 20px;
   font-weight: bold;
+}
+
+.cover-logo {
+  padding: 30px;
+  width: 90%;
+}
+
+.cover a {
+  font-family: Raleway-Light, sans-serif;
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  /*display: inline-block;*/
+  font-size: .8em;
+  letter-spacing: .1em;
+  padding: 10px;
+  text-decoration: none;
+  width: 14em;
+}
+
+.cover a:hover {
+  background-color: #f7c050;
+  border: 2px solid #f7c050;
+}
+
+
+@media (min-width: 768px) {
+  .cover-logo {
+    width: 90%;
+  }
+}
+
+@media (min-width: 998px) {
+  .cover-logo {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cover-logo {
+    width: 70%;
+  }
+}
+
+/*
+ * Footer
+ */
+
+.footer-nav > li {
+  display: inline-block;
+}
+.footer-nav > li + li {
+  margin-left: 20px;
+}
+.footer-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  border-bottom: 2px solid transparent;
+}
+.footer-nav > li > a:hover,
+.footer-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+
+.player {
+  margin-bottom: 10px;
+}
+
+.player-title {
+  margin-bottom: 30px;
+}
+
+.player-bar {
+  background-color: #f7c050;
+  display: inline-block;
+  height: 4px;
+  margin-bottom: 1px;
+  width: 150px;
+}
+
+.player-icon {
+  height: 23px;
+  width: 23px;
+}
+
+.social-icon {
+  height: 40px;
+  width: 40px;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding: 30px 0;
+  }
+  .footer-nav {
+    float: right;
+  }
+  .player {
+    float: left;
+  }
+  .player-title p {
+    margin: -20px 0 20px 0;
+  }
+  .player-title {
+    text-align: left;
+    margin: 0;
+  }
+  .player-bar {
+    width: 200px;
+  }
+}
+
+@media (min-width: 996px) {
+  .player-bar {
+    width: 300px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .player-bar {
+    width: 400px;
+  }
+}
+
+/*
+ * Affix and center
+ */
+
+/* Pull out the header and footer */
+.header {
+  position: fixed;
+  top: 0;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+/* Start the vertical centering */
+.site-wrapper-inner {
+  vertical-align: middle;
+}
+/* Handle the widths */
+.header,
+.footer,
+.cover-container {
+  width: 100%; /* Must be percentage or pixels for horizontal alignment */
+}
+
+@media (min-width: 992px) {
+  .top-buffer {
+    margin-top: 20px;
+  }
+}
+
+/* Padding fix for sub-res */
+@media (max-width: 992px) {
+  .cover .col-xs-12 {
+    margin: 5px;
+  }
 }
